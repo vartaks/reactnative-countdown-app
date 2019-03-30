@@ -1,0 +1,107 @@
+
+D:\sourabh\ReactNative\repos>npm install -g expo-cli
+
+> @expo/traveling-fastlane-linux@1.9.3 preinstall C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\node_modules\@expo\traveling-fastlane-linux
+> node platform.js
+
+Does not seem like WSL enabled on this machine. Download a Linux distro from the Windows Store, run it at least onceand then make sure to run in an admin powershell:
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+C:\Users\SourabhVartak\AppData\Roaming\npm\expo-cli -> C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+C:\Users\SourabhVartak\AppData\Roaming\npm\expo -> C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\bin\expo.js
+
+> iltorb@2.4.2 install C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\node_modules\iltorb
+> node ./scripts/install.js || node-gyp rebuild
+
+info looking for cached prebuild @ C:\Users\SourabhVartak\AppData\Roaming\npm-cache\_prebuilds\51b231-iltorb-v2.4.2-node-v57-win32-x64.tar.gz
+http request GET https://github.com/MayhemYDG/iltorb/releases/download/v2.4.2/iltorb-v2.4.2-node-v57-win32-x64.tar.gz
+http 200 https://github.com/MayhemYDG/iltorb/releases/download/v2.4.2/iltorb-v2.4.2-node-v57-win32-x64.tar.gz
+info downloading to @ C:\Users\SourabhVartak\AppData\Roaming\npm-cache\_prebuilds\51b231-iltorb-v2.4.2-node-v57-win32-x64.tar.gz.7452-a542133c3659c.tmp
+info renaming to @ C:\Users\SourabhVartak\AppData\Roaming\npm-cache\_prebuilds\51b231-iltorb-v2.4.2-node-v57-win32-x64.tar.gz
+info unpacking @ C:\Users\SourabhVartak\AppData\Roaming\npm-cache\_prebuilds\51b231-iltorb-v2.4.2-node-v57-win32-x64.tar.gz
+info unpack resolved to C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\node_modules\iltorb\build\bindings\iltorb.node
+info unpack required C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\expo-cli\node_modules\iltorb\build\bindings\iltorb.node successfully
+info install Successfully installed iltorb binary!
+npm WARN ts-pnp@1.0.1 requires a peer of typescript@* but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-darwin-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-ia32@2.2.8: wanted {"os":"darwin","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-ia32@2.2.8: wanted {"os":"freebsd","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-freebsd-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-freebsd-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-freebsd-x64@2.2.8: wanted {"os":"freebsd","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-darwin-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-darwin-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-darwin-x64@2.2.8: wanted {"os":"darwin","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm@2.2.8: wanted {"os":"linux","arch":"arm"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-x64@2.2.8: wanted {"os":"linux","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-arm64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-arm64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-arm64@2.2.8: wanted {"os":"linux","arch":"arm64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-linux-ia32@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-linux-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-linux-ia32@2.2.8: wanted {"os":"linux","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-sunos-x64@2.2.8 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-sunos-x64):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-sunos-x64@2.2.8: wanted {"os":"sunos","arch":"x64"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/ngrok-bin-win32-ia32@2.2.8-beta.1 (node_modules\expo-cli\node_modules\@expo\ngrok-bin-win32-ia32):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/ngrok-bin-win32-ia32@2.2.8-beta.1: wanted {"os":"win32","arch":"ia32"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: @expo/traveling-fastlane-darwin@1.9.3 (node_modules\expo-cli\node_modules\@expo\traveling-fastlane-darwin):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for @expo/traveling-fastlane-darwin@1.9.3: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\expo-cli\node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
++ expo-cli@2.14.0
+added 1232 packages in 171.844s
+
+
+D:\sourabh\ReactNative\repos>expo init CountdownApp
+? Choose a template: expo-template-blank
+√ Please enter a few initial configuration values.
+  Read more: https://docs.expo.io/versions/latest/workflow/configuration/ · 100% completed
+Extracting project files...
+Customizing project...
+Initialized a git repository.
+Installing dependencies...
+npm WARN deprecated core-js@1.2.7: core-js@<2.6.5 is no longer maintained. Please, upgrade to core-js@3 or at least to actual version of core-js@2.
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN expo-google-sign-in@2.0.0 requires a peer of react-native@^0.55.4 but none is installed. You must install peer dependencies yourself.
+npm WARN react-native-reanimated@1.0.0-alpha.11 requires a peer of react@16.0.0-alpha.6 but none is installed. You must install peer dependencies yourself.
+npm WARN react-native-reanimated@1.0.0-alpha.11 requires a peer of react-native@^0.44.1 but none is installed. You must install peer dependencies yourself.
+npm WARN url-loader@1.1.2 requires a peer of webpack@^3.0.0 || ^4.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 956 packages in 86.829s
+
+Your project is ready at D:\sourabh\ReactNative\repos\CountdownApp
+
+To get started, you can type:
+
+  cd CountdownApp
+  npm start
+
+D:\sourabh\ReactNative\repos>cd CountdownApp
+
+#### IMPORTANT STEP #### Otherwise, it will pick up the wrong IP of VirtualBox Host-Only Network adapter ####
+D:\sourabh\ReactNative\repos\CountdownApp>set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.0.102
+####
+
+D:\sourabh\ReactNative\repos\CountdownApp>npm start
+
+> @ start D:\sourabh\ReactNative\repos\CountdownApp
+> expo start
+
+Starting project at D:\sourabh\ReactNative\repos\CountdownApp
+Expo DevTools is running at http://localhost:19002
+Opening DevTools in the browser... (press shift-d to disable)
+Warning: You are using npm version 5.5.1. There may be bugs in this version, use it at your own risk. We recommend version latest.
+Starting Metro Bundler on port 19001.
+Tunnel ready.
+
+  exp://192.168.0.102:19000
+
+  To run the app with live reloading, choose one of:
+  • Scan the QR code above with the Expo app (Android) or the Camera app (iOS).
+  • Press a for Android emulator.
+  • Press e to send a link to your phone with email.
+  • Press s to sign in and enable more options.
+
+Press ? to show a list of all available commands.
+Logs for your project will appear below. Press Ctrl+C to exit.
