@@ -1,8 +1,10 @@
 import EventList from './EventList';
-import { StackNavigator } from 'react-navigation';
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 
-export default StackNavigator({
+const AppNavigator = createStackNavigator({
   list: {
     screen: EventList
   }
 });
+
+export default createAppContainer(AppNavigator);
