@@ -105,3 +105,8 @@ Tunnel ready.
 
 Press ? to show a list of all available commands.
 Logs for your project will appear below. Press Ctrl+C to exit.
+
+D:\sourabh\ReactNative\repos\CountdownApp>npm i -g json-server
+C:\Users\SourabhVartak\AppData\Roaming\npm\json-server -> C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\json-server\lib\cli\bin.js
++ json-server@0.14.2
+added 236 packages in 16.231s

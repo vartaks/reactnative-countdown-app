@@ -38,6 +38,10 @@ export default class EventList extends Component {
         this.setState({ events });
     }
 
+    handleAddEvent = () => {
+        this.props.navigation.navigate('form');
+    }
+
     render() {
         return [
             <FlatList
