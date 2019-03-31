@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { FlatList, Text, StyleSheet } from 'react-native';
+import { FlatList, StyleSheet } from 'react-native';
+import ActionButton from 'react-native-action-button';
 
 import EventCard from './EventCard';
 
@@ -38,13 +39,18 @@ export default class EventList extends Component {
     }
 
     render() {
-        return (
+        return [
             <FlatList
                 style={styles.list}
                 data={this.state.events}
                 renderItem={({ item }) => <EventCard event={item} />}
                 keyExtractor={item => item.id}
+            />,
+            <ActionButton
+                key='fab'
+                onPress={this.handleAddEvent}
+                buttonColor='rgba(231, 76, 60, 1)'
             />
-        );
+        ];
     }
 }

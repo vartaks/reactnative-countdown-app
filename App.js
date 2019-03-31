@@ -1,9 +1,19 @@
 import EventList from './EventList';
+import EventForm from './EventForm';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 
 const AppNavigator = createStackNavigator({
   list: {
-    screen: EventList
+    screen: EventList,
+    navigationOptions: () => ({
+      title: 'My Events'
+    })
+  },
+  form: {
+    screen: EventForm,
+    navigationOptions: () => ({
+      title: 'Add an event'
+    })
   }
 });
 
