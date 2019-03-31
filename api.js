@@ -1,11 +1,11 @@
-import uuid from 'uuid';
+import { Constants } from 'expo';
 import moment from 'moment';
-import Expo from "expo";
+import uuid from 'uuid';
 
-const { manifest } = Expo.Constants;
+const { manifest } = Constants;
 const api = manifest.packagerOpts.dev
-  ? manifest.debuggerHost.split(`:`).shift().concat(`:3000`)
-  : `api.example.com`;
+  ? manifest.debuggerHost.split(':').shift().concat(':3000')
+  : 'api.example.com';
 
 const url = `http://${api}/events`;
 

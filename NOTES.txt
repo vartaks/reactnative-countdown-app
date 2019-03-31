@@ -110,3 +110,23 @@ D:\sourabh\ReactNative\repos\CountdownApp>npm i -g json-server
 C:\Users\SourabhVartak\AppData\Roaming\npm\json-server -> C:\Users\SourabhVartak\AppData\Roaming\npm\node_modules\json-server\lib\cli\bin.js
 + json-server@0.14.2
 added 236 packages in 16.231s
+
+
+D:\sourabh\ReactNative\repos\CountdownApp>json-server --host 192.168.0.102 db.json
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://192.168.0.102:3000/events
+
+  Home
+  http://192.168.0.102:3000
+
+  Type s + enter at any time to create a snapshot of the database
+
+
+
+
